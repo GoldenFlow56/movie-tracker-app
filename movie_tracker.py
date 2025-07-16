@@ -4,7 +4,7 @@ from tmdbv3api import TMDb, Movie, TV
 
 # Настройка TMDB API
 tmdb = TMDb()
-tmdb.api_key = 'YOUR_API_KEY'  # Вставь свой TMDB API-ключ здесь!
+tmdb.api_key = 'f6b8468192aaf27c05b627a08f755b1d'  # Вставь свой TMDB API-ключ здесь!
 tmdb.language = 'ru'
 movie_api = Movie()
 tv_api = TV()
